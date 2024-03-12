@@ -1,0 +1,55 @@
+/* public/css/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-title {
+    color: #333;
+}
+
+.cocktail-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cocktail-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.cocktail-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.cocktail-link:hover {
+    text-decoration: underline;
+}
+
+.cocktail-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.cocktail-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cocktail-instructions {
+    width: 60%;
+}
